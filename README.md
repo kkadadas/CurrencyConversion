@@ -2,6 +2,7 @@
 Currency Conversion in real time
 This is a simple Spring Boot application that provides real-time currency conversion functionality.
 I have already setup the API and the API access key which is used to get the real time data, I have used FREE FOREX API for the conversion rates
+Attached Screenhshot of the POSTMAN TESTING
 
 ## Prerequisites
 
