@@ -48,16 +48,6 @@ Convert an amount from one currency to another:
     "amount": 100
 }
 
-**Response:**
-```json
-{"to":"EUR",
-"convertedAmount":97.062,
-"amount":100.0,
-"from":"USD"}
 
 
-
-![image](https://github.com/user-attachments/assets/003f9355-34ac-4c05-8425-0920f4df8755)
-
-![image](https://github.com/user-attachments/assets/fbddec43-b713-4490-80ac-0ef6944b0a22)
 
