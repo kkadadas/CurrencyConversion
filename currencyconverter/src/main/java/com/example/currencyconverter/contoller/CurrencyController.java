@@ -26,9 +26,12 @@ public class CurrencyController {
 
     @GetMapping("/rates")  
     public ResponseEntity<Map<String, Object>> getRates(@RequestParam(defaultValue = "USD") String base) {  
-        
+        try {
             Map<String, Object> rates = currencyService.getExchangeRates(base);  
             return ResponseEntity.ok(rates);  
+        }catch(Exception e) {
+        	 return ResponseEntity.status(503).body(Map.of("error", "External API is unavailable")); 
+        }
         
     }  
 
